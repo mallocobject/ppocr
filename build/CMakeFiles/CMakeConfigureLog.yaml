@@ -1,0 +1,485 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+      鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:45銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:02.34
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/3.28.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+      鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:47銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\3.28.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:01.76
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/3.28.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tla3xc"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tla3xc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tla3xc'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2efef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:50銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tla3xc\\cmTC_2efef.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2efef.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tla3xc\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_2efef.dir\\Debug\\cmTC_2efef.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_2efef.dir\\Debug\\cmTC_2efef.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2efef.dir\\Debug\\cmTC_2efef.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2efef.dir\\Debug\\\\" /Fd"cmTC_2efef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2efef.dir\\Debug\\\\" /Fd"cmTC_2efef.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Users\\cmake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tla3xc\\Debug\\cmTC_2efef.exe" /INCREMENTAL /ILK:"cmTC_2efef.dir\\Debug\\cmTC_2efef.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tla3xc/Debug/cmTC_2efef.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tla3xc/Debug/cmTC_2efef.lib" /MACHINE:X64  /machine:x64 cmTC_2efef.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2efef.vcxproj -> D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tla3xc\\Debug\\cmTC_2efef.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_2efef.dir\\Debug\\cmTC_2efef.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_2efef.dir\\Debug\\cmTC_2efef.tlog\\cmTC_2efef.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tla3xc\\cmTC_2efef.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.32
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tb4ep4"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tb4ep4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tb4ep4'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_14051.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:52銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tb4ep4\\cmTC_14051.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_14051.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tb4ep4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_14051.dir\\Debug\\cmTC_14051.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_14051.dir\\Debug\\cmTC_14051.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_14051.dir\\Debug\\cmTC_14051.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14051.dir\\Debug\\\\" /Fd"cmTC_14051.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14051.dir\\Debug\\\\" /Fd"cmTC_14051.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Users\\cmake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tb4ep4\\Debug\\cmTC_14051.exe" /INCREMENTAL /ILK:"cmTC_14051.dir\\Debug\\cmTC_14051.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tb4ep4/Debug/cmTC_14051.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-tb4ep4/Debug/cmTC_14051.lib" /MACHINE:X64  /machine:x64 cmTC_14051.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_14051.vcxproj -> D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tb4ep4\\Debug\\cmTC_14051.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_14051.dir\\Debug\\cmTC_14051.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_14051.dir\\Debug\\cmTC_14051.tlog\\cmTC_14051.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tb4ep4\\cmTC_14051.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.02
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-xir5mf"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-xir5mf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-xir5mf'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d51e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:55銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\cmTC_d51e4.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d51e4.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_d51e4.dir\\Debug\\cmTC_d51e4.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_d51e4.dir\\Debug\\cmTC_d51e4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_d51e4.dir\\Debug\\cmTC_d51e4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51e4.dir\\Debug\\\\" /Fd"cmTC_d51e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51e4.dir\\Debug\\\\" /Fd"cmTC_d51e4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\src.c"
+          src.c
+        D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\cmTC_d51e4.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\cmTC_d51e4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\cmTC_d51e4.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-xir5mf\\cmTC_d51e4.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.57
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-llbpn4"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-llbpn4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-llbpn4'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a82e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:56銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\cmTC_6a82e.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6a82e.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6a82e.dir\\Debug\\cmTC_6a82e.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6a82e.dir\\Debug\\cmTC_6a82e.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6a82e.dir\\Debug\\cmTC_6a82e.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a82e.dir\\Debug\\\\" /Fd"cmTC_6a82e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a82e.dir\\Debug\\\\" /Fd"cmTC_6a82e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\Debug\\cmTC_6a82e.exe" /INCREMENTAL /ILK:"cmTC_6a82e.dir\\Debug\\cmTC_6a82e.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-llbpn4/Debug/cmTC_6a82e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-llbpn4/Debug/cmTC_6a82e.lib" /MACHINE:X64  /machine:x64 cmTC_6a82e.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\cmTC_6a82e.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\cmTC_6a82e.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\cmTC_6a82e.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-llbpn4\\cmTC_6a82e.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.96
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:25 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-d8adeu"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-d8adeu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-d8adeu'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9592a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:57銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\cmTC_9592a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9592a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9592a.dir\\Debug\\cmTC_9592a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_9592a.dir\\Debug\\cmTC_9592a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9592a.dir\\Debug\\cmTC_9592a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9592a.dir\\Debug\\\\" /Fd"cmTC_9592a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9592a.dir\\Debug\\\\" /Fd"cmTC_9592a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\Debug\\cmTC_9592a.exe" /INCREMENTAL /ILK:"cmTC_9592a.dir\\Debug\\cmTC_9592a.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-d8adeu/Debug/cmTC_9592a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-d8adeu/Debug/cmTC_9592a.lib" /MACHINE:X64  /machine:x64 cmTC_9592a.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\cmTC_9592a.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\cmTC_9592a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\cmTC_9592a.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d8adeu\\cmTC_9592a.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.96
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Users/cmake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "D:/Users/cmake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:111 (find_dependency)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:42 (_qt_internal_find_qt_dependencies)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:43 (include)"
+      - "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:26 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-5b4hxe"
+      binary: "D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-5b4hxe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/Qt6/Qt6/6.7.1/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-5b4hxe'
+        
+        Run Build Command(s): "D:/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7f332.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.10.4+10fbfbf2e
+        鐢熸垚鍚姩鏃堕棿涓?2025/4/24 10:27:58銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\cmTC_7f332.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7f332.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_7f332.dir\\Debug\\cmTC_7f332.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_7f332.dir\\Debug\\cmTC_7f332.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7f332.dir\\Debug\\cmTC_7f332.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7f332.dir\\Debug\\\\" /Fd"cmTC_7f332.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.40.33808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_7f332.dir\\Debug\\\\" /Fd"cmTC_7f332.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\src.cxx"
+          src.cxx
+        Link:
+          D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\Debug\\cmTC_7f332.exe" /INCREMENTAL /ILK:"cmTC_7f332.dir\\Debug\\cmTC_7f332.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-5b4hxe/Debug/cmTC_7f332.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/CMakeScratch/TryCompile-5b4hxe/Debug/cmTC_7f332.lib" /MACHINE:X64  /machine:x64 cmTC_7f332.dir\\Debug\\src.obj
+          cmTC_7f332.vcxproj -> D:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\Debug\\cmTC_7f332.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_7f332.dir\\Debug\\cmTC_7f332.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_7f332.dir\\Debug\\cmTC_7f332.tlog\\cmTC_7f332.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淒:\\Microsoft Visual Studio\\vscode\\paddle\\PaddleOCR\\deploy\\ppocr\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5b4hxe\\cmTC_7f332.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:02.11
+        
+      exitCode: 0
+...

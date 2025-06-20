@@ -1,0 +1,4 @@
+D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/ppocr.dir
+D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/INSTALL.dir
+D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/ALL_BUILD.dir
+D:/Microsoft Visual Studio/vscode/paddle/PaddleOCR/deploy/ppocr/build/CMakeFiles/ZERO_CHECK.dir

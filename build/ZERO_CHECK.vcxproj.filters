@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Microsoft Visual Studio\vscode\paddle\PaddleOCR\deploy\ppocr\build\CMakeFiles\ec974971850d3d0c09b6ee728d2cac2c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ECAE8DE0-5FEB-3B0A-8480-EF82B70C65A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
