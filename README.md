@@ -1,1 +1,1 @@
-#Table Detection Helper
+# Table Detection Helper
